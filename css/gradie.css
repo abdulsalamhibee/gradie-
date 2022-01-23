@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+.con-1 h2 {
+  padding-top: 4rem;
+}
+.con-1 p {
+  color: rgb(209, 202, 202);
+  font-size: 13px;
+}
+.con-1 {
+  text-align: center;
+  color: #eee;
+  background-color: rgb(25, 64, 80);
+}
+.con-1 img {
+  width: 100%;
+}
+
+.col-2 {
+  padding-left: 3rem;
+}
+.col-2 h2 {
+  padding-top: 2rem;
+}
+label {
+  padding: 10px 0px 10px 0;
+  font-size: 13px;
+  font-weight: bolder;
+}
+#form-fill {
+  padding: 0 10px 0 10px;
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 3px;
+  border: 1px solid rgb(105, 103, 103);
+  outline: none;
+}
+.check {
+  padding: 40px 10px 10px 0;
+  margin-right: 10px;
+}
+.terms {
+  display: flex;
+  padding: 20px 0;
+  font-weight: bold;
+}
+label,
+input {
+  display: block;
+}
+.terms p {
+  color: rgba(15, 15, 15, 0.842);
+}
+.terms a {
+  color: rgb(25, 64, 80);
+  font-weight: bolder;
+}
+.create {
+  font-size: 13px;
+  outline: none;
+
+  display: block;
+  background-color: rgb(25, 64, 80);
+  color: #ffff;
+  width: 15rem;
+  text-align: center;
+  margin-left: 3rem;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 425px) {
+  .col-2 {
+    padding-left: 4rem;
+  }
+  #form-fill {
+    width: 18rem;
+    height: 3rem;
+  }
+  .create {
+    width: 18rem;
+    margin-left: 3.8rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(../Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  form {
+    padding: 10rem;
+  }
+  #form-fill {
+    width: 20rem;
+  }
+  .col-2 {
+    background-color: #ffff;
+  }
+  .account {
+    background-color: #ffff;
+    padding-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .column {
+    background-color: #ffff;
+  }
+  .account {
+    padding-top: 4rem;
+  }
+  .col-2 {
+    padding-right: 1rem;
+    padding-top: 2rem;
+  }
+  .con-1 {
+    width: 25rem;
+  }
+  #form-fill {
+    margin-right: 2rem;
+  }
+  label {
+    padding-top: 1.5rem;
+  }
+  .terms {
+    padding-top: 2rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .con-1 {
+    width: 100%;
+  }
+}
